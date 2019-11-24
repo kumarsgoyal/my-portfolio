@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.col1 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+.col2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center;font-size: 50px;color: black;font-family: Courier;font-weight: 500">
+<b>Contact</b>
+</h1>
+
+<div class="row">
+  <div class="col1">
+    <center>
+      <img src="profile1.jpg" alt="SHAIL" width="380px" height="550px" style="border-radius: 30%">
+    </center>
+  </div>
+  <div class="col2">
+    <p>
+              <p style="font-family: Comic Sans MS;font-size: 27px;text-align: center;"> 
+                I am Sahil Kumar. I am a simple , creative,<br> Developer,traveller,enthusiastic and fun-loving person.<br> I always like to create something on my own<br> which is helpful for others.
+                </p><br>
+                <br>
+              <p  style="font-family: Comic Sans MS;font-size: 20px;text-align: center;"> 
+                I enjoy turning complex problems into simple,<br> beautiful and intuitive designs.
+                <br>
+                When I'm not coding, Devloping or Designing,<br> you'll find me Travelling or Riding. 
+              </p>
+
+            </p>
+  </div>
+</div>
+
+</body>
+</html>
